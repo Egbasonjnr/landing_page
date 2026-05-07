@@ -79,6 +79,7 @@
   color: #1f2937;
   font-weight: 900;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .second_section img {
@@ -144,4 +145,6 @@
   background: #1f2937;
   padding-left: 10%;
   padding-right: 10%;
+  font-size: 18px;
+  text-align: center;
 }
