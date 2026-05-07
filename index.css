@@ -18,7 +18,8 @@
 
 .first_section {
   background-color: #1f2937;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .header {
@@ -69,7 +70,8 @@
 }
 
 .second_section {
-  padding: 16%;
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
 .second_section h1 {
@@ -101,6 +103,8 @@
 
 .third_section {
   padding: 17%;
+  padding-left: 17%;
+  padding-right: 17%;
   background: #e5e7eb;
   color: #1f2937;
 }
@@ -125,7 +129,8 @@
 
 .action_text {
   background: #3882f6;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   color: #f9faf8;
 }
 
@@ -133,4 +138,10 @@
   background: #3882f6;
   color: #f9faf8;
   font-size: 18px;
+}
+
+.footer {
+  background: #1f2937;
+  padding-left: 10%;
+  padding-right: 10%;
 }
