@@ -26,6 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .logo {
@@ -38,28 +39,31 @@
   font-size: 19px;
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 60px;
   list-style: none;
 }
 
 .hero {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
-
-.hero_text {
+.hero .hero_text {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
+  flex: 1;
 }
 
-.hero_text h1 {
+.hero .hero_text h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
 
-.hero_text p {
+.hero .hero_text p {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -67,11 +71,22 @@
 .hero_text button {
   background: #3882f6;
   color: #f9faf8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.hero_img img {
+  width: 600px;
+  height: 300px;
 }
 
 .second_section {
   padding-left: 16%;
   padding-right: 16%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .second_section h1 {
@@ -79,11 +94,11 @@
   color: #1f2937;
   font-weight: 900;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .second_section img {
-  border: 1px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 15px;
   size: 50px;
 }
@@ -98,12 +113,12 @@
 .second_section .img_list ul li {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
 
 .third_section {
-  padding: 17%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-left: 17%;
   padding-right: 17%;
   background: #e5e7eb;
@@ -119,26 +134,41 @@
 .third_section .author {
   font-size: 20px;
   font-weight: 900;
+  text-align: end;
+  padding-top: 20px;
 }
 
 .action_section {
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.action {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #3882f6;
+  border-radius: 20px;
 }
 
 .action_text {
-  background: #3882f6;
   padding-left: 10%;
   padding-right: 10%;
   color: #f9faf8;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
-.action_section .action_button {
+.action_section .action .action_button {
   background: #3882f6;
   color: #f9faf8;
   font-size: 18px;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  margin-right: 50px;
+  border-radius: 15px;
 }
 
 .footer {
@@ -147,4 +177,7 @@
   padding-right: 10%;
   font-size: 18px;
   text-align: center;
+  color: #f9faf8;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
